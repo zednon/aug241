@@ -1,0 +1,42 @@
+header {
+    background-color: aquamarine;
+    height: 300px;
+}
+
+main {
+    background-color: rgb(150, 127, 255);
+    height: auto;
+}
+
+footer {
+    background-color: rgb(212, 82, 35);
+    height: 300px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+aside {
+    width: 25%;
+    border-right: black 3px double;
+   
+}
+
+.ulNavSide {
+    font-size: 36px;
+    padding-left: 5%;
+text-decoration: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navLiSide a {
+    text-decoration: none;
+    color: black;
+}
+
+
